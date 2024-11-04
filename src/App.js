@@ -1,9 +1,19 @@
-import React from "react";
+// App.jsx
+import React from 'react';
+import RainAnimation from './components/RainAnimation';
+import Sidebar from './components/Sidebar';
 
-function App() {
+
+
+
+const App = () => {
   return (
-    <h1>hello</h1>
+    <>
+    <Sidebar />
+    <RainAnimation />
+
+    </>
   );
-}
+};
 
 export default App;
